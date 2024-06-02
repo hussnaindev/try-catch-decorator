@@ -1,0 +1,24 @@
+{
+  "name": "try-catch-decorator",
+  "version": "1.0.0",
+  "description": "A decorator that wraps a method within a try-catch block. If an error is thrown, it will be caught and re-thrown.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussnaindev/try-catch-decorator.git"
+  },
+  "keywords": [
+    "decorator",
+    "try",
+    "catch"
+  ],
+  "author": "Muhammad Hussnain Raza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hussnaindev/try-catch-decorator/issues"
+  },
+  "homepage": "https://github.com/hussnaindev/try-catch-decorator#readme"
+}
