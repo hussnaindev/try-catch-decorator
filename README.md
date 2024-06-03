@@ -10,7 +10,7 @@ You can install the package via npm:
 npm install try-catch-decorator
 ```
 
-### Step 2: Update tsconfig.ts
+### Step 2: Update tsconfig.json
 
 After installing the package, you need to enable the experimentalDecorators option in your tsconfig.json file to use decorators in TypeScript.
 
