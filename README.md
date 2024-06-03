@@ -2,12 +2,25 @@
 
 A TypeScript decorator to wrap methods with a try-catch block.
 
-## Installation
+### Step 1: Installation
 
 You can install the package via npm:
 
 ```bash
 npm install try-catch-decorator
+```
+
+### Step 2: Update tsconfig.ts
+
+After installing the package, you need to enable the experimentalDecorators option in your tsconfig.json file to use decorators in TypeScript.
+
+Add the following line to your tsconfig.json:
+```typescript
+{
+    "compilerOptions": {
+        "experimentalDecorators": true
+    }
+}
 ```
 
 ### Usage Example

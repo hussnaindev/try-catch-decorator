@@ -1,6 +1,6 @@
 {
   "name": "try-catch-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A decorator that wraps a method within a try-catch block. If an error is thrown, it will be caught and re-thrown.",
   "main": "index.ts",
   "scripts": {
