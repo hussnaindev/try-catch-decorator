@@ -10,9 +10,15 @@
 export function tryCatch(target: any, propertyKey: string, descriptor: PropertyDescriptor): PropertyDescriptor {
     const originalMethod = descriptor.value;
 
-    descriptor.value = async function (...args: any[]): Promise<any> {
+    descriptor.value = function (...args: any[]): any {
         try {
-            return await originalMethod.apply(this, args);
+            const result = originalMethod.apply(this, args);
+            if (result instanceof Promise) {
+                return result.catch((error: any) => {
+                    throw error;
+                });
+            }
+            return result;
         } catch (error) {
             throw error;
         }
