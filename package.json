@@ -13,7 +13,9 @@
   "keywords": [
     "decorator",
     "try",
-    "catch"
+    "catch",
+    "typescript",
+    "ts"
   ],
   "author": "Muhammad Hussnain Raza",
   "license": "MIT",
